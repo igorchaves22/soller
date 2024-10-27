@@ -1,0 +1,30 @@
+{
+    "name": "soller",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc -b && vite build",
+        "lint": "eslint .",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@phosphor-icons/react": "^2.1.7",
+        "framer-motion": "^11.11.10",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-helmet": "^6.1.0",
+        "styled-components": "^6.1.13"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "^1.9.4",
+        "@types/node": "^22.7.7",
+        "@types/react": "^18.3.10",
+        "@types/react-dom": "^18.3.0",
+        "@types/react-helmet": "^6.1.11",
+        "@vitejs/plugin-react": "^4.3.2",
+        "typescript": "^5.5.3",
+        "vite": "^5.4.8"
+    }
+}
