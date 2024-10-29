@@ -1,3 +1,16 @@
+import { Footer, Header } from "~components/molecules";
+import { HomePage } from "~components/pages";
+import { GlobalStylesProvider, Seo } from "~utils";
+
 export function App() {
-    return <h1>App</h1>;
+    return (
+        <>
+            <Seo />
+            <GlobalStylesProvider>
+                <Header />
+                <HomePage />
+                <Footer />
+            </GlobalStylesProvider>
+        </>
+    );
 }
